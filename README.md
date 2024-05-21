@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# Administrador de Pacientes 🏥
+### Este proyecto esta diseñado para gestionar y organizar la información de pacientes de manera eficiente. Utiliza Zustand para la gestión del estado global, React Hook Form para facilitar la validación y el manejo de formularios.
+> Explora la demo del sitio web en el siguiente enlace: [Veterinaria](https://veterinaria-ignacio.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Imagen de Pagina Web](https://github.com/IgnaG-Dev/Veterinaria-React-TS-Zustand-Tailwind/assets/163780789/89d2bf72-15b8-49c7-a36c-10ca4614ce18 "Pagina Web Veterinaria")
 
-Currently, two official plugins are available:
+## Funcionalidades principales 🥇
+- `Gestión de Pacientes`: Permite agregar, editar y eliminar información de pacientes.
+- `Validación de Formularios`: Utiliza React Hook Form para validar los datos ingresados de manera sencilla y efectiva.
+- `Estado Global`: Zustand permite manejar el estado global de la aplicación de forma clara y eficiente.
+## Tecnologías Utilizadas 🧑‍💻
+- `React`: Frontend desarrollado con React para la creación de componentes reutilizables y estado manejado de manera eficiente.
+- `Zustand`: Gestión de estado global de manera simple y directa.
+- `React Hook Form`: Manejo y validación de formularios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Configuración del Proyecto ⚒️
+>[!NOTE]
+>Asegúrate de tener Node.js y npm instalados en tu sistema.
 
-## Expanding the ESLint configuration
+1. Clona este repositorio en tu máquina local.
+   
+   ``` 
+     git clone https://github.com/IgnaG-Dev/Veterinaria-React-TS-Zustand-Tailwind
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Rendimiento ✅
+A continuación te dejamos algunos parametros de rendimiento de la página web utilizando el plugin [LIghthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![Rendimiento](https://github.com/IgnaG-Dev/Veterinaria-React-TS-Zustand-Tailwind/assets/163780789/4c9bb261-7eac-4bd3-aca7-13be5d507079 "Rendimiento de Veterinaria")
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contribución 📨
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar esta aplicación, por favor abre un issue para discutir los cambios propuestos o envía una pull request.
+
+## Contacto 👤
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
